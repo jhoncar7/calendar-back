@@ -20,6 +20,7 @@ app.use(express.json());
 //Rutas
 app.use('/api/auth', require('./routers/auth'));
 app.use('/api/events', require('./routers/events'));
+app.use('/api/password', require('./routers/password'));
 
 /* app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/index.html');
